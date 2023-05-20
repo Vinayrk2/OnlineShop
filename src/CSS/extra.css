@@ -1,0 +1,42 @@
+.card{
+    max-width: 300px;
+    min-width: 250px;
+}
+.card img{
+    width:100%;
+}
+.btnContainer{
+    width:100px;
+    display: flex;
+}
+.btnContainer .btn{
+    width:30px; 
+    background-color: lightgray;
+}
+.btnContainer div{
+    width: 40px;
+    text-align: center;
+}
+.btnContainer div,.btnContainer .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container{
+    display: flex;
+}
+.card{
+    width:300px;
+}
+.infoDiv{
+    color: rgb(30, 190, 30);
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+.centerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
